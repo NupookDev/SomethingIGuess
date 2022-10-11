@@ -38,5 +38,9 @@ const loc = () => {
         })
         .addEventListener('locationerror', (errorMessage) => {
             console.error(errorMessage.message)
+            mapEl.style.display = 'none'
+            submitted.style.display = 'block'
+            submitted.textContent = 'OK bro very funny.'
+            submitted.style.color = 'red'
         })
 }
