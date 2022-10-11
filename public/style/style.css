@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+#map {
+    height: 100vh;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.btn {
+    font-family: 'Raleway';
+    width: 20vw;
+    height: 50px;
+    border-style: none;
+    outline: grey solid 0.1rem;
+}
