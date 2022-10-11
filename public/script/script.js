@@ -37,6 +37,6 @@ const loc = () => {
             L.marker([lat, lng]).bindTooltip('You are around here.').addTo(map)
         })
         .addEventListener('locationerror', (errorMessage) => {
-            console.error(errorMessage)
+            console.error(errorMessage.message)
         })
 }
