@@ -34,7 +34,7 @@ const loc = () => {
         .addEventListener('locationfound', (pos) => {
             const { lat, lng } = pos.latlng
 
-            L.marker([lat, lng]).bindTooltip('YOU').addTo(map)
+            L.marker([lat, lng]).bindTooltip('You are around here.').addTo(map)
         })
         .addEventListener('locationerror', (errorMessage) => {
             console.error(errorMessage)
